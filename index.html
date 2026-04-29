@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<script src="script.js"></script>
+<body>
+    
+    <!--Header-->
+    <header>
+        <h1>Bonjour, je m'appelle Eyitola </h1>
+        <p> Je suis Ingénieure en Sécurité des Systèmes Informatiques </p>
+    </header>
+
+    <!--Section À propos-->
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Bienvenue sur mon portfolio ! Je suis un développeur web passionnée et créatif, spécialisé dans la création de sites web modernes et réactifs. J'ai aussi un Master en Sécurité des Systèmes Informatiques; je suis donc dorénavant "Ingénieure en Sécurité des Systèmes Informatiques" et j'ai aussi des connaissances en Graphisme.</p>
+    </section>
+
+    <!--Section Compétences-->
+    <section>
+        <h2>Mes Compétences</h2>
+        <p>Voici une liste de mes compétences:</p>
+        <ul>
+            <li>Compétences techniques</li>
+            <li>Gestion de projet</li>
+            <li>Compétences transversales</li>
+        </ul>
+    </section>
+
+    <!--Section Contact-->
+    <section>
+        <h2>Me Contacter</h2>
+        <div id="formulaire">
+            <input type="text" id="name" placeholder="Votre nom"/>
+            <input type="email" id="email" placeholder="Votre email"/>
+            <textarea id="message" placeholder="Votre message" rows="4"></textarea>
+            <button onclick="envoyerMessage()">Envoyer ✉️</button>
+        </div>
+        <p id="confirmation" style="display: none; color: green; margin-top: 15px;">
+            ✅ Message envoyé ! Merci, je te répondrai bientôt.
+        </p>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026  Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
